@@ -1,0 +1,22 @@
+# Win-Win WindowsTools
+## Lock your Windows (like: WINDOWS + L) when hovering at the bottom left of the screen.
+### How to start
+Double click on start.bat
+This opens a cmd window, which I personally do not like, so i made two 'start-hidden.blabla' files, they both just open 'start.bat', but hidden.
+### Does it auto start?
+No, you have to start the script everytime you reboot windows.
+Or move the file to one of your autostart folders:
+#### User:
+```
+C:\Users\<YourUsername>\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+```
+#### System:
+```
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup
+```
+### Ok cool but, Why?
+My friend has a Mac Book, with that specific functionality, so i decided to convert the idea into windows.
+### Can it do more?
+No, I could add more things to it later, for example the ability to choose your own action. (probably not)
+### How do I close it?
+Right-click the ugly black-blue icon in your system tray (arrow at bottom right), then click exit

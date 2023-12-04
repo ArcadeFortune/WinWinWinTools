@@ -1,4 +1,4 @@
-# GPT-4: could you help me write a small windows application in python which runs in the background, in the system tray, and executes one task, which is: when the user uses its mouse to hover over the bottom left part of the screen, it then would lock windows (like when pressing WINDOWS + L). by the 'bottom left' i mean, a square, with each side having the length of the height of the taskbar. 
+# GPT-4: could you help me write a small windows application in python which runs in the background, in the system tray, and executes one task, which is: when the user uses its mouse to hover over the bottom left part of the screen, it then would lock windows (like when pressing WINDOWS + L). by the 'bottom left' i mean, a square, with each side having the length of the height of the taskbar.
 import threading
 import pyautogui
 import pystray
@@ -8,6 +8,10 @@ import os
 import time
 
 from getTaskBarHeight import get_taskbar_height
+
+
+def lock_windows():
+    os.system('rundll32.exe user32.dll,LockWorkStation')
 
 
 active = True
@@ -22,10 +26,6 @@ def create_image(width, height, color1, color2):
         fill=color2
     )
     return image
-
-
-def lock_windows():
-    os.system('rundll32.exe user32.dll,LockWorkStation')
 
 
 def check_mouse_position():
