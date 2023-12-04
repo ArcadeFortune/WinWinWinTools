@@ -1,6 +1,12 @@
 # Win-Win WindowsTools
 ## Lock your Windows (like: WINDOWS + L) when hovering at the bottom left of the screen.
 ### How to start
+You need Python installed.
+You need to install the dependencies:
+```
+pip install pyautogui pystray Pillow
+```
+You need the python file, donwload the .zip file.
 Double click on start.bat
 This opens a cmd window, which I personally do not like, so i made two 'start-hidden.blabla' files, they both just open 'start.bat', but hidden.
 ### Does it auto start?
