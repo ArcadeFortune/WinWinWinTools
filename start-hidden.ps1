@@ -1,0 +1,1 @@
+Start-Process -FilePath "start.bat" -WindowStyle Hidden
