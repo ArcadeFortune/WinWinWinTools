@@ -15,6 +15,7 @@ def lock_windows():
 
 
 active = True
+print("Started successfully")
 
 
 def create_image(width, height, color1, color2):

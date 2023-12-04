@@ -8,7 +8,11 @@ pip install pyautogui pystray Pillow
 ```
 You need the python file, donwload the .zip file.
 Double click on start.bat
-This opens a cmd window, which I personally do not like, so i made two 'start-hidden.blabla' files, they both just open 'start.bat', but hidden.
+This opens a cmd window, which I personally do not like, so i made two 'start-hidden.blabla' files which starts the programm hidden.
+#### .vbs (visual basic script)
+My Antivirus does not like .vbs, so i made a .ps1 version.
+#### .ps1 (powershell)
+Right click, then 'run with powershell'.
 ### Does it auto start?
 No, you have to start the script everytime you reboot windows.
 Or move the file to one of your autostart folders:

@@ -1,1 +1,1 @@
-Start-Process -FilePath "start.bat" -WindowStyle Hidden
+Start-Process -FilePath "python" -ArgumentList "main.py" -WindowStyle Hidden
